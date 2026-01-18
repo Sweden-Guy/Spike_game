@@ -60,7 +60,7 @@ void loop() {
     }
     if (buttonState == LOW && buttonPressed) {
       buttonPressed = false;
-      delay(2000);
+      SweepEffect(10);
       resetGame();
     }
     return;
@@ -133,6 +133,7 @@ void loop() {
     }
 
     // Game Over display
+    SweepEffect(10);
     display.clearDisplay();
     display.setTextSize(1);
     display.setCursor(43, 0);
@@ -164,4 +165,18 @@ void resetGame() {
   lastFrame = millis();
   display.clearDisplay();
   display.display();
+}
+void SweepEffect(int speed) {
+
+ 
+  for (int i = 0; i < display.width(); i += speed) {
+    display.fillRect(i, 0, speed, display.height(), WHITE);
+    display.display();
+  }
+
+  
+  for (int i = 0; i < display.width(); i += speed) {
+    display.fillRect(i, 0, speed, display.height(), BLACK);
+    display.display();
+  }
 }

@@ -62,7 +62,9 @@ The foundation of the game was created by ultramegabombasticfuze, but I have fix
 
 - Better spike placement 
 
-- Delay so you can see your score in case you accidentally skip it. 
+- Delay so you can see your score in case you accidentally skip it
+  
+- Sweep Effect
 
 Link to ultramegabombasticfuze:
 

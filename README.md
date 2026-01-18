@@ -25,6 +25,12 @@ The foundation of the game was created by ultramegabombasticfuze, but I have fix
 | One side   | Digital 3       |
 | Other side | GND             |
 
+### Buzzer to Arduino UNO R3
+| Buzzer Pin | Arduino UNO Pin |
+|------------|-----------------|
+| One side   | Digital 6       |
+| Other side | GND             |
+
 ---
 
 ## ESP32 C3 Mini Wiring
@@ -41,6 +47,12 @@ The foundation of the game was created by ultramegabombasticfuze, but I have fix
 | Button Pin | ESP32 C3 Mini Pin |
 |------------|-------------------|
 | One side   | Digital 3         |
+| Other side | GND               |
+
+### Buzzer to ESP32 C3 Mini
+| Buzzer Pin | ESP32 C3 Mini Pin |
+|------------|-------------------|
+| One side   | Digital 1         |
 | Other side | GND               |
 
 
